@@ -33,6 +33,7 @@ export default function WordCard(props){
                 setState({...state, completed: true})
                 last = guess;
                 ans = "Answer : "
+                alert("That Great You Stack True");
             }
             else{
                 console.log('reset, next attempt')
@@ -47,12 +48,15 @@ export default function WordCard(props){
             <br></br>
             <br></br>
             <br></br>
-
             <div class = "center"> 
                 {state.chars.map((c, i) => 
                 <CharacterCard value = {c} key = {i} activationHandler = {activationHandler} 
                 attempt = {state.attempt}/>)}
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <div class = "center">
                     <p><span class="note">{ans}{last}</span></p>
             </div>
