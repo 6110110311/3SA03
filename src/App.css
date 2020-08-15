@@ -79,4 +79,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-  }
+}
+
+.Acenter{
+    width: 1200px;
+    height: 900px;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
