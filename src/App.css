@@ -6,6 +6,7 @@
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
     user-select: none;
+    background: white;
    }
 
 .Acard {
@@ -22,7 +23,7 @@
 
 .activeCard{
     color: red;
-    background: pink;
+    background: cadetblue;
 }
 
 .center{
@@ -62,12 +63,20 @@
     background-color: black;
 }
 
-body{
-    background-color: whitesmoke;
-}
-
 h2{
     text-align: center;
     font-size: 45px;
-    color: black;
+    color: whitesmoke;
 }
+
+.note {
+    font-size: 45px;
+    color: yellow;
+}
+
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
