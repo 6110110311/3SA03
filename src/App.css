@@ -66,12 +66,13 @@
 h2{
     text-align: center;
     font-size: 45px;
-    color: whitesmoke;
+    color: black;
 }
 
 .note {
     font-size: 45px;
     color: red;
+    font-family: "Times New Roman", Times, serif;
 }
 
 body {
@@ -89,4 +90,8 @@ body {
     left: 23%;
     margin-top: -100px;
     margin-left: -100px;
+}
+
+.bg{
+    background-color: aliceblue;
 }

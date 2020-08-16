@@ -28,9 +28,13 @@ var random = Math.floor(Math.random() * 7);
 function App() {
   return (
     <body class = "Acenter">  
-      <h2>  Sort the letters in the animal category.  </h2>
-      <div>
-        <WordCard value = {word} />
+      <div class = "bg">
+      <br></br>
+      <br></br>
+        <h2>  Sort the letters in the animal category.  </h2>
+        <div>
+          <WordCard value = {word} />
+        </div> 
       </div> 
     </body>
   );
